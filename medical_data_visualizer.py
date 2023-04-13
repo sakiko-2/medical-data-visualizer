@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Import data
-df = None
+medical_examination_filepath = './medical_examination.csv'
+df = pd.read_csv(medical_examination_filepath, index_col='id')
 
 # Add 'overweight' column
 df['overweight'] = None
