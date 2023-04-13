@@ -8,7 +8,9 @@ medical_examination_filepath = './medical_examination.csv'
 df = pd.read_csv(medical_examination_filepath, index_col='id')
 
 # Add 'overweight' column
-df['overweight'] = None
+df['bmi'] = df['weight'] / ((df['height'] / 100) * (df['height'] / 100))
+
+df['overweight'] = (df['bmi'] > 25).astype(int)
 
 # Normalize data by making 0 always good and 1 always bad. If the value of 'cholesterol' or 'gluc' is 1, make the value 0. If the value is more than 1, make the value 1.
 
