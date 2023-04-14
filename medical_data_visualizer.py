@@ -58,7 +58,7 @@ def draw_heat_map():
     fig, ax = plt.subplots(figsize=(10, 8))
 
     # Draw the heatmap with 'sns.heatmap()'
-    cmap = sns.color_palette("icefire", as_cmap=True)
+    cmap = sns.color_palette('blend:#4167c7,#38365f,#000000,#000000,#000000,#48242c,#6a2b3a,#a83044,#bb363f,#cc4139,#da5334,#f49d63,#ffd4ac', n_colors=12)
     sns.heatmap(corr, mask=mask, annot=True, fmt='.1f', linewidth='.5', ax=ax, vmin=-0.15, vmax=0.3, cbar_kws={"shrink": 0.5, "format": "%0.2f", "ticks": [-0.08, 0.00, 0.08, 0.16, 0.24]}, cmap=cmap)
 
     # Do not modify the next two lines
