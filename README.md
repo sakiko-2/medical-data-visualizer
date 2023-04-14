@@ -1,3 +1,6 @@
 # Medical Data Visualizer
 
-This is the boilerplate for the Medical Data Visualizer project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer
+## Built with
+- [pandas](https://github.com/pandas-dev/pandas) - Data analysis / manipulation library for Python
+- [seaborn](https://github.com/seaborn/seaborn) - Statiscal data visualization using matplotlib
+- [freeCodeCamp Medical Data Visualizer](https://github.com/freeCodeCamp/boilerplate-medical-data-visualizer) - Tasks, boilerplate
