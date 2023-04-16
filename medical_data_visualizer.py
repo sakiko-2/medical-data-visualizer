@@ -55,7 +55,7 @@ def draw_heat_map():
     mask = np.triu(np.ones_like(corr))
 
     # Set up the matplotlib figure
-    fig, ax = plt.subplots(figsize=(10, 8))
+    fig, ax = plt.subplots(figsize=(11, 9))
 
     # Draw the heatmap with 'sns.heatmap()'
     cmap = sns.color_palette('blend:#4167c7,#38365f,#000000,#000000,#000000,#48242c,#6a2b3a,#a83044,#bb363f,#cc4139,#da5334,#f49d63,#ffd4ac', n_colors=12)
