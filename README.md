@@ -3,12 +3,12 @@
 ## Charts
 <div>
   <h3>Bar Chart</h3>
-  <img src="./catplot.png" width="700" alt="">
+  <img src="./catplot.png" width="700" alt="categorical bar plot">
 </div>
 <br/>
 <div>
-  <h3>Heatmap</h3>
-  <img src="./heatmap.png" width="700" alt="">
+  <h3>Correlation Heatmap</h3>
+  <img src="./heatmap.png" width="700" alt="correlation heatmap">
 </div>
 <br/>
 
